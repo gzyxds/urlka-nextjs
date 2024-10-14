@@ -215,22 +215,21 @@ const Footer = () => {
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
               Template by{" "}
+              © Copyright 172号卡 . All Rights Reserved  备案号：
+              <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer" className="hover:text-primary">
+              赣ICP备2023002309号-9
+              </a>
               <a
                 href="https://www.urlka.cn"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary"
               >
-                URLKA
-              </a>{" "}
-              and{" "}
-              <a
-                href="https://www.urlka.cn"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-primary"
-              >
-               172号卡
+                <span>
+                  {" "}
+                  <span className="text-primary"></span>
+                </span>
+                {/* 172号卡官网代理系统 <span className="text-primary"></span> */}
               </a>
             </p>
           </div>

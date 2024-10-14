@@ -162,6 +162,8 @@ const Header = () => {
                 </nav>
               </div>
               <div className="flex items-center justify-end pr-16 lg:pr-0">
+                {/* 原有代码注释掉 */}
+                {/*
                 <Link
                   href="/signin"
                   className="hidden px-7 py-3 text-base font-medium text-dark hover:opacity-70 dark:text-white md:block"
@@ -169,11 +171,30 @@ const Header = () => {
                  注册
                 </Link>
                 <Link
-                  href="/signup"
+                  href="https://haoka.lot-ml.com/plugreg.html?agentid=90925"
                   className="ease-in-up shadow-btn hover:shadow-btn-hover hidden rounded-sm bg-primary px-8 py-3 text-base font-medium text-white transition duration-300 hover:bg-opacity-90 md:block md:px-9 lg:px-6 xl:px-9"
                 >
                  登入
                 </Link>
+                */}
+                
+                {/* 新窗口连接的注册和登入按钮 */}
+                <a
+                  href="https://haoka.lot-ml.com/plugregper.html?agentid=90925"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hidden px-7 py-3 text-base font-medium text-dark hover:opacity-70 dark:text-white md:block"
+                >
+                 注册
+                </a>
+                <a
+                  href="https://haoka.lot-ml.com/login.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="ease-in-up shadow-btn hover:shadow-btn-hover hidden rounded-sm bg-primary px-8 py-3 text-base font-medium text-white transition duration-300 hover:bg-opacity-90 md:block md:px-9 lg:px-6 xl:px-9"
+                >
+                 登入
+                </a>
                 <div>
                   <ThemeToggler onToggle={(isDark) => setIsDark(isDark)} />
                 </div>

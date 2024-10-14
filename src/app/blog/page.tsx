@@ -5,17 +5,18 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Blog Page for Startup Nextjs Template",
+  title: "172号卡博客",
+  description: "172号卡博客",
   // other metadata
 };
 
 const Blog = () => {
   return (
     <>
+      {/* 页面导航 */}
       <Breadcrumb
-        pageName="Blog Grid"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="172号卡博客"
+        description="172号卡博客"
       />
 
       <section className="pb-[120px] pt-[120px]">

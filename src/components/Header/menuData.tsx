@@ -28,9 +28,9 @@ const menuData: Menu[] = [
   },
   {
     id: 5,
-    title: "服务",
-    path: "/services",
-    newTab: false,
+    title: "AI创作",
+    path: "https://comnew.cn/",
+    newTab: true,
   },
   {
     id: 6,
@@ -77,13 +77,14 @@ const menuData: Menu[] = [
       {
         id: 46,
         title: "登录页面",
-        path: "/signin",
+        path: "https://haoka.lot-ml.com/plugreg.html?agentid=90925",
         newTab: false,
       },
       {
         id: 47,
         title: "注册页面",
-        path: "/signup",
+        path: "https://haoka.lot-ml.com/plugreg.html?agentid=90925", 
+        path: "/signup", // 注册页面路径
         newTab: false,
       },
       {
