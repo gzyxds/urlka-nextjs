@@ -3,8 +3,8 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Sign Up Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Sign Up Page for Startup Nextjs Template",
+  title: "172号卡分销系统官网 | 172号卡分销系统官网",  // 
+  description: "172号卡分销系统官网", // 
   // other metadata
 };
 
@@ -179,7 +179,7 @@ const SignupPage = () => {
                 <p className="text-center text-base font-medium text-body-color">
                   Already using Startup?{" "}
                   <Link href="/signin" className="text-primary hover:underline">
-                    Sign in
+                   登入
                   </Link>
                 </p>
               </div>

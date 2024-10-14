@@ -1,61 +1,88 @@
-# Startup - Free Next.js Startup Website Template
+# 启动 - 免费的Next.js启动网站模板
 
-Startup free, open-source, and premium-quality startup website template for Next.js comes with everything you need to launch a startup, business, or SaaS website, including all essential sections, components, and pages.
+Startup是一个免费、开源、高质量的启动网站模板，适用于Next.js，包含了启动、业务或SaaS网站所需的一切，包括所有基本部分、组件和页面。
 
-If you're looking for a high-quality and visually appealing, feature-rich Next.js Template for your next startup, SaaS, or business website, this is the perfect choice and starting point for you!
+如果您正在寻找一个高质量、视觉上吸引人的、功能丰富的Next.js模板，用于您的下一个启动、SaaS或业务网站，这是一个完美的选择和起点！
 
-### ✨ Key Features
-- Crafted for Startup and SaaS Business
-- Next.js and Tailwind CSS
-- All Essential Business Sections and Pages
-- High-quality and Clean Design
-- Dark and Light Version
-- TypeScript Support
-and Much More ...
+### ✨ 主要特征
+- 为启动和SaaS业务而设计
+- 使用Next.js和Tailwind CSS
+- 包含所有基本的业务部分和页面
+- 高质量、清洁的设计
+- 暗黑和明亮版本
+- TypeScript支持
+- 还有更多 ...
 
-### 🙌 Detailed comparison between the Free and Pro versions of Startup
+### 🙌 免费和专业版本的Startup之间的详细比较
 
-| Feature             | Free | Pro |
+| 特征             | 免费 | 专业 |
 |---------------------|------------|----------|
-| Next.js Landing Page             | ✅ Yes      | ✅ Yes      |
-| All The Integrations - Auth, DB, Payments, Blog and many more ...             | ❌ No      | ✅ Yes |
-| Homepage Variations             | 1      | 2 |
-| Additional SaaS Pages and Components             | ❌ No      | ✅ Yes |
-| Functional Blog with Sanity       | ❌ No      | ✅ Yes | ✅ Yes |
-| Use with Commercial Projects            | ✅ Yes      | ✅ Yes      |
-| Lifetime Free Updates             | ✅ Yes      | ✅ Yes |
-| Email Support       | ❌ No         | ✅ Yes       |
-| Community Support         | ✅ Yes         | ✅ Yes       |
+| Next.js登陆页面             | ✅ 是      | ✅ 是      |
+| 所有集成 - 认证、数据库、支付、博客等 ...             | ❌ 否      | ✅ 是 |
+| 首页变体             | 1      | 2 |
+| 额外的SaaS页面和组件             | ❌ 否      | ✅ 是 |
+| 带有Sanity的功能博客       | ❌ 否      | ✅ 是 | ✅ 是 |
+| 用于商业项目            | ✅ 是      | ✅ 是      |
+| 终身免费更新             | ✅ 是      | ✅ 是 |
+| 邮件支持       | ❌ 否         | ✅ 是       |
+| 社区支持         | ✅ 是         | ✅ 是       |
 
 
-### [🔥 Get Startup Pro](https://nextjstemplates.com/templates/saas-starter-startup)
+### [🔥 获取Startup Pro](https://nextjstemplates.com/templates/saas-starter-startup)
 
 [![Startup Pro](https://raw.githubusercontent.com/NextJSTemplates/startup-nextjs/main/startup-pro.webp)](https://nextjstemplates.com/templates/saas-starter-startup)
 
-Startup Pro - Expertly crafted for fully-functional, high-performing SaaS startup websites. Comes with with Authentication, Database, Blog, and all the essential integrations necessary for SaaS business sites.
+Startup Pro - 专门为完全功能、高性能的SaaS启动网站而设计。包含认证、数据库、博客和所有必要的集成，适用于SaaS业务网站。
 
+### [🚀 查看免费演示](https://startup.nextjstemplates.com/)
 
-### [🚀 View Free Demo](https://startup.nextjstemplates.com/)
+### [🚀 查看专业演示](https://startup-pro.nextjstemplates.com/)
 
-### [🚀 View Pro Demo](https://startup-pro.nextjstemplates.com/)
+### [📦 下载](https://nextjstemplates.com/templates/startup)
 
-### [📦 Download](https://nextjstemplates.com/templates/startup)
+### [🔥 获取专业版](https://nextjstemplates.com/templates/saas-starter-startup)
 
-### [🔥 Get Pro](https://nextjstemplates.com/templates/saas-starter-startup)
+### [🔌 文档](https://nextjstemplates.com/docs)
 
-### [🔌 Documentation](https://nextjstemplates.com/docs)
+### ⚡ 立即部署
 
-### ⚡ Deploy Now
+[![使用Vercel部署](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FNextJSTemplates%2Fstartup-nextjs)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FNextJSTemplates%2Fstartup-nextjs)
+[![使用Netlify部署](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/NextJSTemplates/startup-nextjs)
 
-[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/NextJSTemplates/startup-nextjs)
+## 安装
 
+[](https://github.com/NextJSTemplates/solid-nextjs#installation)
 
-### 📄 License
-Startup is 100% free and open-source, feel free to use with your personal and commercial projects.
+以下是安装依赖项需要遵循的步骤。
 
-### 💜 Support
-If you like the template, please star this repository to inspire the team to create more stuff like this and reach more users like you!
+1.从 Next.js 模板下载并解压**模板。**
 
-### ✨ Explore and Download - Free [Next.js Templates](https://nextjstemplates.com)
+**2.cd** 到模板目录下，然后运行此命令以安装所有依赖项
+
+```shell
+npm install
+```
+
+或
+
+```shell
+yarn install
+```
+
+您可以在本地服务器上启动项目
+
+```shell
+npm run dev
+```
+
+它将在 [localhost：3000](http://localhost:3000/) 上启动模板。
+
+该文档包括集成所需的所有指南。
+### 📄 许可证
+Startup是100%免费和开源的，您可以随意用于个人和商业项目。
+
+### 💜 支持
+如果您喜欢这个模板，请为这个仓库加星，以激励团队创建更多类似的内容，并让更多像您这样的用户受益！
+
+### ✨ 探索和下载 - 免费的[Next.js模板](https://nextjstemplates.com)

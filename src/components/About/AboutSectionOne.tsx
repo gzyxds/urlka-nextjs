@@ -24,8 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="172号卡是一个提供流量卡分销服务的平台"
+                paragraph="主要面向代理商和分销商，提供各种流量套餐的办理和分销服务。以下是关于172号卡的一些详细信息："
                 mb="44px"
               />
 
@@ -35,15 +35,15 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                    <List text="平台特点：" />
+                    <List text="172号卡平台与运营商官方合作，提供大流量和超低月租的套餐，支持官网APP查询，确保用户能够享受到官方正品服务。" />
+                    <List text="平台提供高佣金和快速提现的机制，以吸引和保障分销商的利益。" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                    <List text="分销系统：" />
+                    <List text="172号卡分销系统支持代理商自己购买卡品并获得佣金，同时也支持发展下级代理，通过设置佣金比例实现团队收益。" />
+                    <List text="系统提供订单管理、代理管理、财务管理等功能，方便代理商进行业务操作和管理。" />
                   </div>
                 </div>
               </div>
