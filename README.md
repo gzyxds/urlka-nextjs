@@ -76,6 +76,20 @@ yarn install
 npm run dev
 ```
 
+在使用 Next.js 和 Vercel 进行构建时，您通常会使用以下命令来构建您的项目：
+1. 本地构建命令
+在本地开发环境中，您可以使用以下命令来构建您的 Next.js 项目：
+Bash
+或者，如果您使用的是 Yarn：
+Bash
+2. Vercel 部署命令
+如果您在 Vercel 上部署项目，您可以使用以下命令来构建并部署您的项目：
+Bash
+或者，如果您已经在 Vercel 上配置了项目，您可以直接使用：
+Bash
+
+
+
 它将在 [localhost：3000](http://localhost:3000/) 上启动模板。
 
 该文档包括集成所需的所有指南。

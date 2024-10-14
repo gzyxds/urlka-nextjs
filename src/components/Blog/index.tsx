@@ -10,8 +10,8 @@ const Blog = () => {
     >
       <div className="container">
         <SectionTitle
-          title="Our Latest Blogs"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="172号卡特点"
+          paragraph="172号卡是一种由虚拟运营商发行的SIM卡，它通过租用传统三大运营商（中国移动、中国联通、中国电信）的网络基础设施来提供通信服务。"
           center
         />
 
