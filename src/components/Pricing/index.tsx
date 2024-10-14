@@ -11,8 +11,8 @@ const Pricing = () => {
     <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="172号卡爆款产品"
-          paragraph="主推"
+          title="运营商官方正品"
+          paragraph="运营商直签资源，全网最高佣金！ 大流量+超低月租"
           center
           width="665px"
         />
@@ -27,7 +27,7 @@ const Pricing = () => {
                   : "text-dark dark:text-white"
               } mr-4 cursor-pointer text-base font-semibold`}
             >
-              18-60周岁
+              精选
             </span>
             <div
               onClick={() => setIsMonthly(!isMonthly)}
@@ -52,44 +52,44 @@ const Pricing = () => {
                   : "pointer-events-none text-primary"
               } ml-4 cursor-pointer text-base font-semibold`}
             >
-              1351758人领取
+              省内产品集合中心
             </span>
           </div>
         </div>
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           <PricingBox
-            packageName="Lite"
-            price={isMonthly ? "135G" : "295G"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="通用流量 135G"
+            packageName="精选"
+            price={isMonthly ? "￥0" : "￥0"}
+            duration={isMonthly ? "免费申请" : "免费申请"}
+            subtitle="省内产品集合中心"
           >
-            <OfferList text="定向流量 0G" status="active" />
+            <OfferList text="通用流量 105G" status="active" />
+            <OfferList text="定向流量 30G" status="active" />
             <OfferList text="通话时长 100分钟" status="active" />
-            <OfferList text="19元135G通用+100分钟" status="inactive" />
-            <OfferList text="立即办理" status="inactive" />
+            <OfferList text="免费申请 包邮到家" status="active" />
           </PricingBox>
           <PricingBox
-            packageName="Basic"
-            price={isMonthly ? "29元295G+100分钟" : "29元295G+100分钟"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="通用流量 55G"
+            packageName="移动"
+            price={isMonthly ? "￥0" : "￥0"}
+            duration={isMonthly ? "免费申请" : "免费申请"}
+            subtitle="移动沧蕾卡"
           >
-            <OfferList text="定向流量 240G" status="active" />
-            <OfferList text="通话时长 100分钟" status="active" />
-            <OfferList text="20元295G+100分钟" status="inactive" />
-            <OfferList text="立即办理" status="inactive" />
+            <OfferList text="通用流量 50G" status="active" />
+            <OfferList text="定向流量 30G" status="active" />
+            <OfferList text="通话时长 0分钟" status="active" />
+            <OfferList text="免费包邮到家" status="active" />
           </PricingBox>
           <PricingBox
-            packageName="Plus"
-            price={isMonthly ? "29元80G+0.1元/分钟+4个亲情号" : "29元80G+0.1元/分钟+4个亲情号"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="通用流量 80G"
+            packageName="电信"
+            price={isMonthly ? "￥0" : "￥0"}
+            duration={isMonthly ? "免费申请" : "免费申请"}
+            subtitle="电信梦神卡"
           >
-            <OfferList text="定向流量 0G" status="active" />
-            <OfferList text="通话时长 100分钟" status="active" />
-            <OfferList text="29元80G+100分钟" status="active" />
-            <OfferList text="立即办理" status="active" />
+            <OfferList text="通用流量 0分钟" status="active" />
+            <OfferList text="A50G定向流量" status="active" />
+            <OfferList text="30G通话时长" status="active" />
+            <OfferList text="免费申请 包邮到家" status="active" />
           </PricingBox>
         </div>
       </div>

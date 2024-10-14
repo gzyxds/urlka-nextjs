@@ -35,6 +35,9 @@ const Hero = () => {
               </div>
             </div>
           </div>
+          <div className="mt-16 flex justify-center">
+            <img src="\images\hero\172_1.png" alt="172号卡海报" className="w-full max-w-[800px] h-auto rounded-lg" />
+          </div>
         </div>
         <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
           <svg

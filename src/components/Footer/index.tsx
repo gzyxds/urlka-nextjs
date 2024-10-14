@@ -27,8 +27,7 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                172号卡分销综合管理系统运营商官方合作伙伴，大流量+超低月租
                 </p>
                 <div className="flex items-center">
                   <a
@@ -41,7 +40,7 @@ const Footer = () => {
                     <svg
                       width="18"
                       height="18"
-                      viewBox="0 0 22 22"
+                      viewBox="0 0 24 24"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
                     >
@@ -112,7 +111,7 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Useful Links
+                  套餐介绍
                 </h2>
                 <ul>
                   <li>
@@ -120,7 +119,7 @@ const Footer = () => {
                       href="/blog"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Blog
+                      套餐介绍
                     </Link>
                   </li>
                   <li>
@@ -128,7 +127,7 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Pricing
+                      套餐介绍
                     </Link>
                   </li>
                   <li>
@@ -136,7 +135,7 @@ const Footer = () => {
                       href="/about"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      About
+                      关于我们
                     </Link>
                   </li>
                 </ul>
@@ -146,7 +145,7 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Terms
+                  条款
                 </h2>
                 <ul>
                   <li>
@@ -154,7 +153,7 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      TOS
+                      条款
                     </Link>
                   </li>
                   <li>
@@ -162,7 +161,7 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Privacy Policy
+                      隐私政策
                     </Link>
                   </li>
                   <li>
@@ -170,7 +169,7 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Refund Policy
+                      退款政策
                     </Link>
                   </li>
                 </ul>
@@ -180,7 +179,7 @@ const Footer = () => {
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Support & Help
+                  & Help 
                 </h2>
                 <ul>
                   <li>
@@ -188,7 +187,7 @@ const Footer = () => {
                       href="/contact"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Open Support Ticket
+                      联系客服
                     </Link>
                   </li>
                   <li>
@@ -196,7 +195,7 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Terms of Use
+                      条款
                     </Link>
                   </li>
                   <li>
@@ -204,7 +203,7 @@ const Footer = () => {
                       href="/about"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      About
+                      条款
                     </Link>
                   </li>
                 </ul>
@@ -217,21 +216,21 @@ const Footer = () => {
             <p className="text-center text-base text-body-color dark:text-white">
               Template by{" "}
               <a
-                href="http://uideck.com"
+                href="https://www.urlka.cn"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary"
               >
-                UIdeck
+                URLKA
               </a>{" "}
               and{" "}
               <a
-                href="https://nextjstemplates.com"
+                href="https://www.urlka.cn"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary"
               >
-                Next.js Templates
+               172号卡
               </a>
             </p>
           </div>
