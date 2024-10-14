@@ -8,7 +8,7 @@ const testimonialData: Testimonial[] = [
     name: "Musharof Chy",
     designation: "Founder @TailGrids",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "我们是运营商金牌代理商，年销售量已突破10亿元的专业平台，致力于成为运营商和推广者之间的桥梁。作为您的合作伙伴，我们将为推广手机卡的用户保驾护航，为您的业务拓展提供强有力的支持！",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
@@ -17,7 +17,7 @@ const testimonialData: Testimonial[] = [
     name: "Devid Weilium",
     designation: "Founder @UIdeck",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "172流量卡分销平台致力于打造一个公平、透明、互惠共赢的合作平台。我们相信，只有与合作伙伴携手共进，我们才能共同成长和取得更大的成功。",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
@@ -26,7 +26,7 @@ const testimonialData: Testimonial[] = [
     name: "Lethium Frenci",
     designation: "Founder @Lineicons",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "加入我们，您将获得专业、高效的合作伙伴，共同开创互联网时代的新篇章。无论您是想实现财富增值，还是希望发展更广阔的人脉，我们都将为您提供一个理想的平台。",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
@@ -37,8 +37,8 @@ const Testimonials = () => {
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="我们的用户说"
+          paragraph="我们是运营商金牌代理商，年销售量已突破10亿元的专业平台，致力于成为运营商和推广者之间的桥梁。"
           center
         />
 
