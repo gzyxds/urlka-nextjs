@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-// import ThemeToggler from "./ThemeToggler"; // 确保导入的组件名称正确
+import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 
 const Header = () => {
@@ -175,7 +175,7 @@ const Header = () => {
                  登入
                 </Link>
                 <div>
-                  {/* <ThemeToggler toggleTheme={(isDark) => setIsDark(isDark)} /> */}
+                  <ThemeToggler onToggle={(isDark) => setIsDark(isDark)} />
                 </div>
               </div>
             </div>
