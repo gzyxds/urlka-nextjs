@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import ThemeToggler from "./ThemeToggler";
+// import ThemeToggler from "./ThemeToggler"; // 确保导入的组件名称正确
 import menuData from "./menuData";
 
 const Header = () => {
