@@ -1,18 +1,21 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 import Contact from "@/components/Contact";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "关于我们 - 172号卡分销系统官网",
   description: "了解172号卡分销系统的发展历程、企业文化和团队介绍。我们致力于为合作伙伴提供优质的流量卡分销解决方案。",
   keywords: "172号卡,关于我们,公司介绍,企业文化,团队介绍,流量卡分销",
   openGraph: {
-    image: {
-      url: "/images/logo/icon.png",
-      width: 800,
-      height: 600,
-      alt: "172号卡分销系统",
-    },
+    images: [
+      {
+        url: "/images/logo/icon.png",
+        width: 800,
+        height: 600,
+        alt: "172号卡分销系统",
+      },
+    ],
   },
 };
 
@@ -43,10 +46,12 @@ const AboutUs = () => {
             </div>
             <div className="w-full px-4 lg:w-1/2">
               <div className="relative z-10 my-4 mx-auto max-w-[500px] lg:mr-0">
-                <img
-                  src="/images/about/about-image.jpg"
+                <Image
+                  src="/images/blog/blog-02.jpg"
                   alt="关于我们"
                   className="mx-auto max-w-full rounded-md"
+                  width={500}
+                  height={300}
                 />
               </div>
             </div>
