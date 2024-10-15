@@ -7,13 +7,13 @@ import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 
 const Header = () => {
-  // Navbar toggle
+  // 导航栏切换
   const [navbarOpen, setNavbarOpen] = useState(false);
   const navbarToggleHandler = () => {
     setNavbarOpen(!navbarOpen);
   };
 
-  // Sticky Navbar
+  // 固定导航栏
   const [sticky, setSticky] = useState(false);
   const handleStickyNavbar = () => {
     if (window.scrollY >= 80) {
@@ -26,7 +26,7 @@ const Header = () => {
     window.addEventListener("scroll", handleStickyNavbar);
   });
 
-  // submenu handler
+  // 子菜单处理
   const [openIndex, setOpenIndex] = useState(-1);
   const handleSubmenu = (index) => {
     if (openIndex === index) {
@@ -38,8 +38,8 @@ const Header = () => {
 
   const usePathName = usePathname();
 
-  // 默认亮色模式
-  const [isDark, setIsDark] = useState(false);
+  // 默认白天模式
+  const [isDark, setIsDark] = useState(false);//默认白天模式
 
   return (
     <>
