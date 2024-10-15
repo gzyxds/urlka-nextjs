@@ -17,7 +17,7 @@ const featuresData: Feature[] = [
       "全网最高的佣金，快速实现流量变现.",
   },
   {
-    id: 1,
+    id: 2,
     icon: (
       <svg width="40" height="40" viewBox="0 0 40 40" className="fill-current">
         <path
@@ -32,7 +32,7 @@ const featuresData: Feature[] = [
       "全网最全的卡池，满足您的所有需求。",
   },
   {
-    id: 1,
+    id: 3,
     icon: (
       <svg width="40" height="40" viewBox="0 0 40 40" className="fill-current">
         <path
@@ -47,7 +47,7 @@ const featuresData: Feature[] = [
       "全网最优的流量，满足您的所有需求。",
   },
   {
-    id: 1,
+    id: 4,
     icon: (
       <svg width="40" height="42" viewBox="0 0 40 42" className="fill-current">
         <path
@@ -62,7 +62,7 @@ const featuresData: Feature[] = [
       "全网最优的流量，满足您的所有需求。",
   },
   {
-    id: 1,
+    id: 5,
     icon: (
       <svg width="40" height="40" viewBox="0 0 40 40" className="fill-current">
         <path
@@ -90,6 +90,96 @@ const featuresData: Feature[] = [
     title: "全自动发货",
     paragraph:
       "全自动发货，无需人工干预。",
+  },
+  {
+    id: 7,
+    icon: (
+      <svg width="40" height="40" viewBox="0 0 40 40" className="fill-current">
+        <path
+          opacity="0.5"
+          d="M20 30C26.0751 30 31 25.0751 31 19C31 12.9249 26.0751 8 20 8C13.9249 8 9 12.9249 9 19C9 25.0751 13.9249 30 20 30Z"
+        />
+        <path d="M20 0C8.95431 0 0 8.95431 0 20C0 31.0457 8.95431 40 20 40C31.0457 40 40 31.0457 40 20C40 8.95431 31.0457 0 20 0ZM20 33C12.268 33 6 26.732 6 19C6 11.268 12.268 5 20 5C27.732 5 34 11.268 34 19C34 26.732 27.732 33 20 33Z" />
+      </svg>
+    ),
+    title: "24小时客户服务",
+    paragraph:
+      "我们提供全天候的客户支持，随时解答您的疑问。",
+  },
+  {
+    id: 8,
+    icon: (
+      <svg width="40" height="40" viewBox="0 0 40 40" className="fill-current">
+        <path
+          opacity="0.5"
+          d="M20 40C31.0457 40 40 31.0457 40 20C40 8.95431 31.0457 0 20 0C8.95431 0 0 8.95431 0 20C0 31.0457 8.95431 40 20 40Z"
+        />
+        <path d="M20 32C26.6274 32 32 26.6274 32 20C32 13.3726 26.6274 8 20 8C13.3726 8 8 13.3726 8 20C8 26.6274 13.3726 32 20 32Z" />
+      </svg>
+    ),
+    title: "灵活的套餐选择",
+    paragraph:
+      "提供多种套餐选择，满足不同用户的需求。",
+  },
+  {
+    id: 9,
+    icon: (
+      <svg width="40" height="40" viewBox="0 0 40 40" className="fill-current">
+        <path
+          opacity="0.5"
+          d="M20 0C8.95431 0 0 8.95431 0 20C0 31.0457 8.95431 40 20 40C31.0457 40 40 31.0457 40 20C40 8.95431 31.0457 0 20 0Z"
+        />
+        <path d="M10 20L17 27L30 14" strokeWidth="2" stroke="currentColor" fill="none" />
+      </svg>
+    ),
+    title: "高质量服务保证",
+    paragraph:
+      "我们承诺提供高质量的服务，确保客户满意度。",
+  },
+  {
+    id: 10,
+    icon: (
+      <svg width="40" height="40" viewBox="0 0 40 40" className="fill-current">
+        <path
+          opacity="0.5"
+          d="M20 40C31.0457 40 40 31.0457 40 20C40 8.95431 31.0457 0 20 0C8.95431 0 0 8.95431 0 20C0 31.0457 8.95431 40 20 40Z"
+        />
+        <path d="M12 20L18 26L28 16" strokeWidth="2" stroke="currentColor" fill="none" />
+      </svg>
+    ),
+    title: "快速激活流程",
+    paragraph:
+      "简化的激活流程，让您快速开始使用我们的服务。",
+  },
+  {
+    id: 11,
+    icon: (
+      <svg width="40" height="40" viewBox="0 0 40 40" className="fill-current">
+        <path
+          opacity="0.5"
+          d="M20 0C8.95431 0 0 8.95431 0 20C0 31.0457 8.95431 40 20 40C31.0457 40 40 31.0457 40 20C40 8.95431 31.0457 0 20 0Z"
+        />
+        <path d="M20 10V20L26 26" strokeWidth="2" stroke="currentColor" fill="none" />
+      </svg>
+    ),
+    title: "实时数据监控",
+    paragraph:
+      "提供实时数据监控功能，让您随时了解使用情况。",
+  },
+  {
+    id: 12,
+    icon: (
+      <svg width="40" height="40" viewBox="0 0 40 40" className="fill-current">
+        <path
+          opacity="0.5"
+          d="M20 40C31.0457 40 40 31.0457 40 20C40 8.95431 31.0457 0 20 0C8.95431 0 0 8.95431 0 20C0 31.0457 8.95431 40 20 40Z"
+        />
+        <path d="M10 20H30M20 10V30" strokeWidth="2" stroke="currentColor" fill="none" />
+      </svg>
+    ),
+    title: "灵活的升级选项",
+    paragraph:
+      "提供灵活的升级选项，随时调整以满足您不断变化的需求。",
   },
 ];
 export default featuresData;
