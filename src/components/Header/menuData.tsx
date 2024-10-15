@@ -56,6 +56,12 @@ const menuData: Menu[] = [
         path: "/contact",
         newTab: false,
       },
+      {
+        id: 43,
+        title: "卡博士",
+        path: "https://wap.kaboshihaoka.com/show/?agent_id=36285&name=%u5361%u535A%u4E16", 
+        newTab: false,
+      },
       // {
       //   id: 43,
       //   title: "博客网格页面",
