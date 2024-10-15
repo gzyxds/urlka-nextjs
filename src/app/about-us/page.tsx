@@ -7,16 +7,15 @@ export const metadata: Metadata = {
   description: "了解172号卡分销系统的发展历程、企业文化和团队介绍。我们致力于为合作伙伴提供优质的流量卡分销解决方案。",
   keywords: "172号卡,关于我们,公司介绍,企业文化,团队介绍,流量卡分销",
   openGraph: {
-    images: [
-      {
-        url: "/images/logo/icon.png",
-        width: 800,
-        height: 600,
-        alt: "172号卡分销系统",
-      },
-    ],
+    image: {
+      url: "/images/logo/icon.png",
+      width: 800,
+      height: 600,
+      alt: "172号卡分销系统",
+    },
   },
 };
+
 
 const AboutUs = () => {
   return (
