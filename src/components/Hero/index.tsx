@@ -15,7 +15,7 @@ const Hero = () => {
                 172号卡分销系统官网
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                运营商官方合作伙伴，大流量+超低月租
+                运营商官方合作伙伴、大流量+超低月租！
                   <br />
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
@@ -36,8 +36,18 @@ const Hero = () => {
                     >
                      申请全国代理商
                     </Link>
-                    <img src="/images/hero/gzh.png" alt="申请代理商二维码" className="mt-4 w-40 h-40" />
+                    <img src="/images/hero/qfwl.png" alt="申请代理商二维码" className="mt-4 w-40 h-40" />
                     <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">扫码申请代理</p>
+                  </div>
+                  <div className="flex flex-col items-center">
+                    <Link
+                      href="https://work.weixin.qq.com/wework_admin/external_room/jump_from_doc?code=roomCode_mbUiBp1sFWjy7VvS&bar_style_type=5"
+                      className="inline-block rounded-sm bg-green-500 px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-green-600"
+                    >
+                     扫码加入社聊
+                    </Link>
+                    <img src="/images/hero/sq.png" alt="加入群聊二维码" className="mt-4 w-40 h-40" />
+                    <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">扫码加入群聊</p>
                   </div>
                 </div>
               </div>

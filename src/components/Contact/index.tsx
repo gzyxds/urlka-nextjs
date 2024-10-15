@@ -19,11 +19,11 @@ const Contact = () => {
               <div className="w-full flex flex-col items-center justify-center">
                 <div className="flex flex-row items-center justify-center">
                   <div className="flex flex-col items-center justify-center">
-                    <img src="/images/about/gzh.png" alt="微信二维码" className="w-1/2 rounded-sm shadow-three dark:shadow-none mx-4 mb-4" style={{ width: '200px', height: '200px' }} />
+                    <img src="/images/about/wx.png" alt="微信二维码" className="w-1/2 rounded-sm shadow-three dark:shadow-none mx-4 mb-4" style={{ width: '200px', height: '200px' }} />
                     <p className="mb-4">微信二维码</p>
                   </div>
                   <div className="flex flex-col items-center justify-center">
-                    <img src="/images/about/gzh.png" alt="公众号二维码" className="w-1/2 rounded-sm shadow-three dark:shadow-none mx-4 mb-4" style={{ width: '200px', height: '200px' }} />
+                    <img src="/images/hero/qfwl.png" alt="公众号二维码" className="w-1/2 rounded-sm shadow-three dark:shadow-none mx-4 mb-4" style={{ width: '200px', height: '200px' }} />
                     <p>公众号二维码</p>
                   </div>
                 </div>
