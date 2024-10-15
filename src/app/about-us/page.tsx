@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     images: [
       {
-        images: ["/images/logo/icon.png"],  // 
+        url: "/images/logo/icon.png",
         width: 800,
         height: 600,
         alt: "172号卡分销系统",
@@ -45,7 +45,7 @@ const AboutUs = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="relative z-10 my-4 mx-auto max-w-[500px] lg:mr-0">
                 <img
-                  src="/images/blog/blog-01.jpg"
+                  src="/images/about/about-image.jpg"
                   alt="关于我们"
                   className="mx-auto max-w-full rounded-md"
                 />
