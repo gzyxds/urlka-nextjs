@@ -17,13 +17,13 @@ const Contact = () => {
                 扫描二维码，直接与我们联系。
               </p>
               <div className="w-full flex flex-col items-center justify-center">
-                <div className="flex flex-row items-center justify-center">
-                  <div className="flex flex-col items-center justify-center">
-                    <img src="/images/about/wx.png" alt="微信二维码" className="w-1/2 rounded-sm shadow-three dark:shadow-none mx-4 mb-4" style={{ width: '200px', height: '200px' }} />
+                <div className="flex flex-wrap justify-center">
+                  <div className="flex flex-col items-center justify-center m-4">
+                    <img src="/images/about/wx.png" alt="微信二维码" className="w-full max-w-[200px] h-auto rounded-sm shadow-three dark:shadow-none mb-4" />
                     <p className="mb-4">微信二维码</p>
                   </div>
-                  <div className="flex flex-col items-center justify-center">
-                    <img src="/images/hero/qfwl.png" alt="公众号二维码" className="w-1/2 rounded-sm shadow-three dark:shadow-none mx-4 mb-4" style={{ width: '200px', height: '200px' }} />
+                  <div className="flex flex-col items-center justify-center m-4">
+                    <img src="/images/hero/qfwl.png" alt="公众号二维码" className="w-full max-w-[200px] h-auto rounded-sm shadow-three dark:shadow-none mb-4" />
                     <p>公众号二维码</p>
                   </div>
                 </div>

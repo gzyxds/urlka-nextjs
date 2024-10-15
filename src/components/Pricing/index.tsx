@@ -64,6 +64,9 @@ const Pricing = () => {
             duration={isMonthly ? "免费申请" : "免费申请"}
             subtitle="省内产品集合中心"
           >
+            <div className="mb-8">
+              <img src="https://haokaapi.lot-ml.com/upload/ProductUpDateImage/20241001/7bc33c39dd8c49feb6494067b18a4dc9.jpg" alt="精选套餐" className="w-full h-auto" />
+            </div>
             <OfferList text="通用流量 105G" status="active" />
             <OfferList text="定向流量 30G" status="active" />
             <OfferList text="通话时长 100分钟" status="active" />
@@ -75,6 +78,9 @@ const Pricing = () => {
             duration={isMonthly ? "免费申请" : "免费申请"}
             subtitle="移动沧蕾卡"
           >
+            <div className="mb-8">
+              <img src="https://haokaapi.lot-ml.com/upload/ProductUpDateImage/20241008/959b3e4d17b04e498de1f5356abc98ca.jpg" alt="精选套餐" className="w-full h-auto" />
+            </div>
             <OfferList text="通用流量 50G" status="active" />
             <OfferList text="定向流量 30G" status="active" />
             <OfferList text="通话时长 0分钟" status="active" />
@@ -86,6 +92,9 @@ const Pricing = () => {
             duration={isMonthly ? "免费申请" : "免费申请"}
             subtitle="电信梦神卡"
           >
+            <div className="mb-8">
+              <img src="https://haokaapi.lot-ml.com/upload/ProductUpDateImage/20240902/347fe6e0e5364bf9ab8ee212e3cb1a37.jpg" alt="精选套餐" className="w-full h-auto" />
+            </div>
             <OfferList text="通用流量 0分钟" status="active" />
             <OfferList text="A50G定向流量" status="active" />
             <OfferList text="30G通话时长" status="active" />
