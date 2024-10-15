@@ -4,17 +4,17 @@ import Contact from "@/components/Contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Contact Page for Startup Nextjs Template",
-  // other metadata
+  title: "172号卡分销系统官网_手机流量卡分销管理平台",
+  description: "172号卡分销系统官网_手机流量卡分销管理平台",
+  // 其他元数据
 };
 
 const ContactPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Contact Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="172号卡分销系统"
+        description="172号卡官网！我们提供最新的电信、移动、联通和广电流量卡及物联卡的在线申请和办理服务。加入我们的分销管理平台，成为代理合伙人，轻松管理您的流量卡业务，获取丰厚收益。"
       />
 
       <Contact />

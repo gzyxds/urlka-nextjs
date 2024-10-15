@@ -16,13 +16,13 @@ const menuData: Menu[] = [
   },
   {
     id: 33,
-    title: "博客",
+    title: "知识库",
     path: "/blog",
     newTab: false,
   },
   {
     id: 3,
-    title: "支持",
+    title: "联系",
     path: "/contact",
     newTab: false,
   },

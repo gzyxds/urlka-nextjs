@@ -3,9 +3,12 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "172号卡分销系统官网 | 172号卡分销系统官网",  // 
-  description: "172号卡分销系统官网", // 
-  // other metadata
+  title: "172号卡分销系统官网_手机流量卡分销管理平台",  // 
+  description: "172号卡分销系统官网_手机流量卡分销管理平台", //   
+  keywords: "172号卡分销系统官网,手机流量卡,流量卡,流量卡分销,流量卡批发,流量卡代理,流量卡分销系统,流量卡分销平台,流量卡分销管理,流量卡分销系统官网", // 
+  openGraph: {
+    images: ["/images/logo/icon.png"],  // 
+  },
 };
 
 const SignupPage = () => {
