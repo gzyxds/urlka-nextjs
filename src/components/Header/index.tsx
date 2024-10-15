@@ -38,8 +38,8 @@ const Header = () => {
 
   const usePathName = usePathname();
 
-  // 默认白天模式
-  const [isDark, setIsDark] = useState(true);
+  // 默认亮色模式
+  const [isDark, setIsDark] = useState(false);
 
   return (
     <>
