@@ -28,7 +28,7 @@ const NewsLatterBox = () => {
           登入后台
         </a>
         <p className="text-center text-base leading-relaxed text-body-color dark:text-body-color-dark">
-         立即成为全国代理商
+         立即成为全国代理商！
         </p>
       </div>
 
