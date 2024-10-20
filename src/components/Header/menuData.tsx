@@ -14,12 +14,7 @@ const menuData: Menu[] = [
     path: "/about",
     newTab: false,
   },
-  {
-    id: 33,
-    title: "知识库",
-    path: "/blog",
-    newTab: false,
-  },
+  
   {
     id: 3,
     title: "联系",
