@@ -57,24 +57,7 @@ const menuData: Menu[] = [
         path: "https://wap.kaboshihaoka.com/show/?agent_id=36285&name=%u5361%u535A%u4E16", 
         newTab: false,
       },
-      {
-        id: 43,
-        title: "博客网格页面",
-        path: "/blog",
-        newTab: false,
-      },
-      {
-        id: 44,
-        title: "博客边栏页面",
-        path: "/blog-sidebar",
-        newTab: false,
-      },
-      {
-        id: 45,
-        title: "博客详情页面",
-        path: "/blog-details",
-        newTab: false,
-      },
+
       {
         id: 46,
         title: "代理登入",
