@@ -77,7 +77,7 @@ const featuresData: Feature[] = [
       "零库存压力，无需担心库存问题。",
   },
   {
-    id: 1,
+    id: 6,
     icon: (
       <svg width="40" height="45" viewBox="0 0 40 45" className="fill-current">
         <path
@@ -180,6 +180,51 @@ const featuresData: Feature[] = [
     title: "灵活的升级选项",
     paragraph:
       "提供灵活的升级选项，随时调整以满足您不断变化的需求。",
+  },
+  {
+    id: 13,
+    icon: (
+      <svg width="40" height="40" viewBox="0 0 40 40" className="fill-current">
+        <path
+          opacity="0.5"
+          d="M20 0C8.95431 0 0 8.95431 0 20C0 31.0457 8.95431 40 20 40C31.0457 40 40 31.0457 40 20C40 8.95431 31.0457 0 20 0Z"
+        />
+        <path d="M20 10L10 20H30L20 30" strokeWidth="2" stroke="currentColor" fill="none" />
+      </svg>
+    ),
+    title: "多平台支持",
+    paragraph:
+      "支持多种平台，让您在任何设备上都能轻松使用我们的服务。",
+  },
+  {
+    id: 14,
+    icon: (
+      <svg width="40" height="40" viewBox="0 0 40 40" className="fill-current">
+        <path
+          opacity="0.5"
+          d="M20 40C31.0457 40 40 31.0457 40 20C40 8.95431 31.0457 0 20 0C8.95431 0 0 8.95431 0 20C0 31.0457 8.95431 40 20 40Z"
+        />
+        <path d="M15 20C15 17.2386 17.2386 15 20 15C22.7614 15 25 17.2386 25 20C25 22.7614 22.7614 25 20 25C17.2386 25 15 22.7614 15 20Z" />
+      </svg>
+    ),
+    title: "精准定位服务",
+    paragraph:
+      "提供精准的定位服务，帮助您更好地管理和优化您的业务。",
+  },
+  {
+    id: 15,
+    icon: (
+      <svg width="40" height="40" viewBox="0 0 40 40" className="fill-current">
+        <path
+          opacity="0.5"
+          d="M20 0C8.95431 0 0 8.95431 0 20C0 31.0457 8.95431 40 20 40C31.0457 40 40 31.0457 40 20C40 8.95431 31.0457 0 20 0Z"
+        />
+        <path d="M12 20H28M20 12V28" strokeWidth="2" stroke="currentColor" fill="none" />
+      </svg>
+    ),
+    title: "可扩展性",
+    paragraph:
+      "我们的服务具有高度可扩展性，可以随着您的业务增长而轻松扩展。",
   },
 ];
 export default featuresData;

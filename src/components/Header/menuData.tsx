@@ -23,8 +23,8 @@ const menuData: Menu[] = [
   },
   {
     id: 5,
-    title: "AI创作",
-    path: "https://comnew.cn/",
+    title: "文档",
+    path: "https://urlka.cn/",
     newTab: true,
   },
   {

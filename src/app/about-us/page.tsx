@@ -70,7 +70,12 @@ const AboutUs = () => {
                 { title: "灵活定价", description: "根据市场需求调整的灵活定价策略" },
                 { title: "数据分析", description: "提供深入的销售数据分析和洞察" },
                 { title: "合作共赢", description: "与合作伙伴建立长期互利的关系" },
-                { title: "快速响应", description: "迅速应对市场变化和客户需求" }
+                { title: "快速响应", description: "迅速应对市场变化和客户需求" },
+                { title: "广泛网络", description: "遍布全国的代理商网络" },
+                { title: "品牌信誉", description: "在业内建立的良好口碑和信誉" },
+                { title: "培训支持", description: "为代理商提供全面的业务培训" },
+                { title: "营销资源", description: "丰富的营销材料和推广资源" }
+                
               ].map((item, index) => (
                 <div key={index} className="w-full px-4 md:w-1/2 lg:w-1/4">
                   <div className="mb-8 rounded-md bg-white p-10 shadow-one dark:bg-dark">

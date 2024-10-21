@@ -30,7 +30,7 @@ Startup是一个免费、开源、高质量的启动网站模板，适用于Next
 
 ### [🔥 获取Startup Pro](https://nextjstemplates.com/templates/saas-starter-startup)
 
-[![Startup Pro](https://raw.githubusercontent.com/NextJSTemplates/startup-nextjs/main/startup-pro.webp)](https://nextjstemplates.com/templates/saas-starter-startup)
+
 
 Startup Pro - 专门为完全功能、高性能的SaaS启动网站而设计。包含认证、数据库、博客和所有必要的集成，适用于SaaS业务网站。
 
