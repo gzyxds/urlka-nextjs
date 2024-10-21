@@ -111,15 +111,23 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  套餐介绍
+                 公司简介
                 </h2>
                 <ul>
                   <li>
                     <Link
-                      href="https://urlka.cn/172/guide.html"
+                      href="https://urlka.cn/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      套餐介绍
+                      172官网
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="https://urlka.cn/about/"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      公司介绍
                     </Link>
                   </li>
                   <li>
@@ -127,15 +135,7 @@ const Footer = () => {
                       href="https://urlka.cn/172/guide.html"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      套餐介绍
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="https://urlka.cn/172/about.html"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      关于我们
+                      常见问题
                     </Link>
                   </li>
                 </ul>
@@ -145,7 +145,7 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  条款
+                  知识库
                 </h2>
                 <ul>
                   <li>
@@ -153,7 +153,7 @@ const Footer = () => {
                       href="https://urlka.cn/172/guide.html"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      条款
+                    常见问题
                     </Link>
                   </li>
                   <li>
@@ -161,7 +161,7 @@ const Footer = () => {
                       href="https://urlka.cn/172/guide.html"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      隐私政策
+                    业务操作
                     </Link>
                   </li>
                   <li>
@@ -169,7 +169,7 @@ const Footer = () => {
                       href="https://urlka.cn/172/guide.html"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      退款政策
+                    财务相关
                     </Link>
                   </li>
                 </ul>
@@ -195,15 +195,15 @@ const Footer = () => {
                       href="https://urlka.cn/172/guide.html"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      条款
+                    快捷导航
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="https://urlka.cn/172/about.html"
+                      href="https://172.lot-ml.com/ProductEn/Index/1a654e0b341cadd2"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      条款
+                    免费领卡
                     </Link>
                   </li>
                 </ul>
