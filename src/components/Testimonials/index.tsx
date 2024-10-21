@@ -1,7 +1,6 @@
 import { Testimonial } from "@/types/testimonial";
 import SectionTitle from "../Common/SectionTitle";
 import SingleTestimonial from "./SingleTestimonial";
-
 const testimonialData: Testimonial[] = [
   {
     id: 1,
@@ -27,6 +26,33 @@ const testimonialData: Testimonial[] = [
     designation: "市场营销总监",
     content:
       "加入我们，您将获得专业、高效的合作伙伴，共同开创互联网时代的新篇章。无论您是想实现财富增值，还是希望发展更广阔的人脉，我们都将为您提供一个理想的平台。",
+    image: "/images/testimonials/auth-03.png",
+    star: 5,
+  },
+  {
+    id: 4,
+    name: "刘强",
+    designation: "资深代理商",
+    content:
+      "作为172号卡的长期合作伙伴，我深深感受到这个平台的专业性和创新力。他们不仅提供优质的产品，更重要的是给予代理商全方位的支持，让我们能够更好地服务终端客户。",
+    image: "/images/testimonials/auth-01.png",
+    star: 5,
+  },
+  {
+    id: 5,
+    name: "陈静",
+    designation: "客户服务主管",
+    content:
+      "172号卡平台的客户服务体系非常完善，无论是对代理商还是最终用户，都能提供及时、专业的支持。这种以客户为中心的理念，让我们在竞争激烈的市场中始终保持领先地位。",
+    image: "/images/testimonials/auth-02.png",
+    star: 5,
+  },
+  {
+    id: 6,
+    name: "赵阳",
+    designation: "技术总监",
+    content:
+      "172号卡的技术支持团队反应迅速，解决问题高效。他们不断优化系统，确保平台稳定运行，这让我们可以专注于业务拓展，无需担心技术问题。这种专业的后台支持是我们选择长期合作的重要原因之一。",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },

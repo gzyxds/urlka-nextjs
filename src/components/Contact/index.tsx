@@ -27,14 +27,14 @@ const Contact = () => {
                     <p>公众号二维码</p>
                   </div>
                 </div>
-                <div className="mt-4 flex flex-row items-center justify-center">
-                  <button className="rounded-sm bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark mr-4">
-                    提交工单
-                  </button>
-                  <button className="rounded-sm bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark">
-                    联系我们
-                  </button>
-                </div>
+                {/* <div className="mt-4 flex flex-row items-center justify-center">
+                  <a href="https://haoka.lot-ml.com/plugregper.html?agentid=90925" target="_blank" rel="noopener noreferrer" className="rounded-sm bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark mr-4">
+                   立即注册
+                  </a>
+                  <a href="https://haoka.lot-ml.com/" target="_blank" rel="noopener noreferrer" className="rounded-sm bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark">
+                    免费领卡
+                  </a>
+                </div> */}
               </div>
             </div>
           </div>

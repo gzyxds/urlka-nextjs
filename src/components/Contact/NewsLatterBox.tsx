@@ -15,20 +15,21 @@ const NewsLatterBox = () => {
       </p>
       <div>
        
-        <a
-          href="https://example.com/subscribe"
+      <a
+          href="https://haoka.lot-ml.com/plugregper.html?agentid=90925"
           className="mb-5 flex w-full cursor-pointer items-center justify-center rounded-sm bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark"
         >
           立即注册
         </a>
+        
         <a
-          href="https://example.com/subscribe"
+          href="https://haoka.lot-ml.com/"
           className="mb-5 flex w-full cursor-pointer items-center justify-center rounded-sm bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark"
         >
-          登入后台
+          登入系统
         </a>
         <p className="text-center text-base leading-relaxed text-body-color dark:text-body-color-dark">
-         立即成为全国代理商！
+         免费申请全国代理商！
         </p>
       </div>
 
