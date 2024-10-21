@@ -196,7 +196,7 @@ const Header = () => {
                  登入
                 </a>
                 <div>
-                  <ThemeToggler onToggle={(isDark) => setIsDark(isDark)} />
+                 {/* <ThemeToggler onToggle={(isDark) => setIsDark(isDark)} /> */}
                 </div>
               </div>
             </div>
